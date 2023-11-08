@@ -6,6 +6,8 @@ public class EliminarParesArrayList {
 
     /**
      * Eliminar elementos pares
+     * 
+     * 
      */
     public static void main(String[] args) {
      ArrayList<Integer> numeros = new ArrayList<>();
@@ -14,6 +16,7 @@ public class EliminarParesArrayList {
         numeros.add(3);
         numeros.add(4);
         numeros.add(5);
+        numeros.add(6);
 
         for (int i = numeros.size() - 1; i >= 0; i--) {
             if (numeros.get(i) % 2 == 0) {
